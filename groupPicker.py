@@ -41,7 +41,7 @@ def main():
     
     # get teams from text file, get number of groups from user, and randomize list
     teams = read_teams()
-    num_groups = int(input("Enter the number of groups: "))
+    num_groups = int(input("Enter the number teams per group: "))
     shuffle(teams)
 
     # get the list of final groups
